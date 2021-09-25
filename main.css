@@ -1,0 +1,57 @@
+.firstScreen {
+    background-image: linear-gradient(to right, rgba(128, 0, 128, .7), rgba(0, 0, 139, .9));
+}
+
+.logo {
+    width: 150px;
+}
+
+header {
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, rgba(128, 0, 128, .7), rgba(0, 0, 139, .9))
+}
+
+header, nav {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex
+}
+
+nav li {
+    list-style-type: none;
+    font-size: larger;
+    text-align: right;
+    flex: 1
+    
+}
+
+nav a, nav span{
+    color: white;
+}
+
+.laptop {
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+}
+
+.description {
+    text-align: center;
+    color: white;
+}
+
+.openKastButton {
+    text-align: center;
+    color: white;
+    background-color: orange;
+}   
+
+h2 {
+    color: black;
+}
